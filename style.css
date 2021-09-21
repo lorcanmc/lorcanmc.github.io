@@ -1,9 +1,12 @@
+body {
+    background-color: rgb(240, 205, 140);
+}
 h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
+    font-size: 120px;
     font-weight: bold;
-    color: khaki;
+    color: rgb(240, 205, 140);
 }
 
 header {
@@ -14,15 +17,17 @@ h2 {
     font-family: Helvetica;
     font-size: 32px;
     font-weight: bold;
-    color: rgb(75, 165, 67);
+    color: rgb(255, 255, 255);
 }
 
 #author {
-    color: khaki;
+    color: white;
+    font-weight: bolder;
 }
 
 p{
     font-family: Helvetica;
+    font-weight: bold;
 }
 
 a {
