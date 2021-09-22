@@ -1,12 +1,19 @@
 body {
-    background-color: rgb(240, 205, 140);
+    background-color: hsla(30,40%,10%,1);
 }
+
+main {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
 h1 {
+    padding-top: 3cm;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 120px;
-    font-weight: bold;
-    color: rgb(240, 205, 140);
+    font-weight: 900;
+    color: hsla(30,40%,10%,1);
 }
 
 header {
@@ -17,20 +24,29 @@ h2 {
     font-family: Helvetica;
     font-size: 32px;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: hsla(0,0%,100%,1);
+}
+
+h3, li {
+    color: hsla(0,0%,100%,1);
 }
 
 #author {
-    color: white;
-    font-weight: bolder;
+    font-size: 38px;
+    font-family: Helvetica;
+    color: hsla(30,40%,20%,1);
+    font-weight: 900;
+    text-align: right;
+    padding-right: 21%;
 }
 
 p{
+    color: hsla(0,0%,100%,1);
     font-family: Helvetica;
     font-weight: bold;
 }
 
 a {
+    color: hsla(0,0%,100%,1);
     font-weight: bold;
-    color: blue;
 }
