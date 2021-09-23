@@ -7,6 +7,12 @@ main {
     padding-right: 30%;
 }
 
+aside {
+    padding: 5px 40px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
 h1 {
     padding-top: 3cm;
     text-align: center;
@@ -14,6 +20,7 @@ h1 {
     font-size: 120px;
     font-weight: 900;
     color: hsla(30,40%,10%,1);
+    letter-spacing: 23px;
 }
 
 header {
@@ -49,4 +56,15 @@ p{
 a {
     color: hsla(0,0%,100%,1);
     font-weight: bold;
+}
+
+#khanLink {
+    font-size: 30px;
+    color: rgb(0, 132, 255);
+}
+
+figcaption {
+    color: white;
+    font-size: large;
+    font-style: italic;
 }
